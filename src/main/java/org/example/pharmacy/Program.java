@@ -13,9 +13,7 @@ public class Program {
         Vetbicid vetbic = new Vetbicid("Vetbic", 40, 30);
         Medicine medicine1 = new Medicine();
         medicine1.addComponent(asitr).addComponent(penicilinium).addComponent(vetbic);
-//        for (MedicineComponent companent : medicine1) {
-//
-//        }
+
         Iterator<MedicineComponent> med = medicine1;
         while (med.hasNext()) {
             System.out.println(med.next());

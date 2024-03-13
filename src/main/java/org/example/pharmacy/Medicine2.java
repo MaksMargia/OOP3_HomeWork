@@ -19,17 +19,7 @@ public class Medicine2 implements Iterable<MedicineComponent> {
     }
 
 
-//    @Override
-//    public boolean hasNext() {
-////        return components.iterator().hasNext();
-//        return index < components.size();
-//    }
-//
-//    @Override
-//    public MedicineComponent next() {
-////        return components.iterator().next();
-//        return components.get(index++);
-//    }
+
 
     @Override
     public String toString() {
